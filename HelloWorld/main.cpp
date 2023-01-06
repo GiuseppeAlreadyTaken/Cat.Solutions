@@ -6,7 +6,7 @@
 
 std::string version = "1.0";
 
-KeyAuth::api KeyAuthApp("Test", "cK9PelFX9Z", "ce3b4257e67b23fa06361290e118a158e2d7285d1da9e7dc2957d1ab4feb1878", version, "https://keyauth.win/api/1.2/");
+KeyAuth::api KeyAuthApp("Test", "cK9PelFX9Z", "ce3b4257e67b23fa06361290e118a158e2d7285d1da9e7dc2957d1ab4feb1878", version, "https://keyauth.win/api/1.2/"); // Oh no leak :sob:
 
 int main() {
 
